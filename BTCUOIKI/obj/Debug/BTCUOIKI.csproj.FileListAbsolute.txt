@@ -1,0 +1,13 @@
+D:\XML\CUOIKI\BTCUOIKI\bin\Debug\BTCUOIKI.exe.config
+D:\XML\CUOIKI\BTCUOIKI\bin\Debug\BTCUOIKI.exe
+D:\XML\CUOIKI\BTCUOIKI\bin\Debug\BTCUOIKI.pdb
+D:\XML\CUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.csproj.AssemblyReference.cache
+D:\XML\CUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.frmKhachhang.resources
+D:\XML\CUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.frmNhanVien.resources
+D:\XML\CUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.Main.resources
+D:\XML\CUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.Properties.Resources.resources
+D:\XML\CUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.csproj.GenerateResource.cache
+D:\XML\CUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.csproj.CoreCompileInputs.cache
+D:\XML\CUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.exe
+D:\XML\CUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.pdb
+D:\XML\CUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.frmHoaDon.resources
