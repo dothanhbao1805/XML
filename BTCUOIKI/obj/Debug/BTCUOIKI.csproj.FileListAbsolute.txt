@@ -1,0 +1,13 @@
+E:\BTCUOIKI\BTCUOIKI\bin\Debug\BTCUOIKI.exe.config
+E:\BTCUOIKI\BTCUOIKI\bin\Debug\BTCUOIKI.exe
+E:\BTCUOIKI\BTCUOIKI\bin\Debug\BTCUOIKI.pdb
+E:\BTCUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.csproj.AssemblyReference.cache
+E:\BTCUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.Form1.resources
+E:\BTCUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.DangNhap.resources
+E:\BTCUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.frmKhachHang.resources
+E:\BTCUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.frmTrangChu.resources
+E:\BTCUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.Properties.Resources.resources
+E:\BTCUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.csproj.GenerateResource.cache
+E:\BTCUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.csproj.CoreCompileInputs.cache
+E:\BTCUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.exe
+E:\BTCUOIKI\BTCUOIKI\obj\Debug\BTCUOIKI.pdb

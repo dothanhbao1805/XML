@@ -3,8 +3,34 @@
   "WorkspaceRootPath": "E:\\BTCUOIKI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\btcuoiki\\btcuoiki\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\btcuoiki\\btcuoiki\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\btcuoiki\\btcuoiki\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\btcuoiki\\btcuoiki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BTCUOIKI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\btcuoiki\\btcuoiki\\gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\btcuoiki\\btcuoiki\\gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\btcuoiki\\btcuoiki\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +40,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 291,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "E:\\BTCUOIKI\\BTCUOIKI\\GUI\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\frmKhachHang.cs",
+              "ToolTip": "E:\\BTCUOIKI\\BTCUOIKI\\GUI\\frmKhachHang.cs",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\frmKhachHang.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:15:05.352Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
@@ -30,14 +70,76 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "E:\\BTCUOIKI\\BTCUOIKI\\GUI\\DangNhap.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\DangNhap.cs",
+              "ToolTip": "E:\\BTCUOIKI\\BTCUOIKI\\GUI\\DangNhap.cs",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\DangNhap.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvx8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:51:19.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "E:\\BTCUOIKI\\BTCUOIKI\\GUI\\DangNhap.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\DangNhap.cs",
+              "ToolTip": "E:\\BTCUOIKI\\BTCUOIKI\\GUI\\DangNhap.cs [Design]",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:47:42.972Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\BTCUOIKI\\BTCUOIKI\\Form1.cs",
               "RelativeDocumentMoniker": "BTCUOIKI\\Form1.cs",
               "ToolTip": "E:\\BTCUOIKI\\BTCUOIKI\\Form1.cs [Design]",
               "RelativeToolTip": "BTCUOIKI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:25:39.168Z",
+              "WhenOpened": "2024-11-18T08:55:47.535Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\BTCUOIKI\\BTCUOIKI\\Program.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\Program.cs",
+              "ToolTip": "E:\\BTCUOIKI\\BTCUOIKI\\Program.cs",
+              "RelativeToolTip": "BTCUOIKI\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:54:33.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BTCUOIKI",
+              "DocumentMoniker": "E:\\BTCUOIKI\\BTCUOIKI\\BTCUOIKI.csproj",
+              "RelativeDocumentMoniker": "BTCUOIKI\\BTCUOIKI.csproj",
+              "ToolTip": "E:\\BTCUOIKI\\BTCUOIKI\\BTCUOIKI.csproj",
+              "RelativeToolTip": "BTCUOIKI\\BTCUOIKI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-18T08:53:19.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "E:\\BTCUOIKI\\BTCUOIKI\\GUI\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\frmKhachHang.cs",
+              "ToolTip": "E:\\BTCUOIKI\\BTCUOIKI\\GUI\\frmKhachHang.cs [Design]",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\frmKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T07:53:28.406Z",
               "EditorCaption": " [Design]"
             }
           ]

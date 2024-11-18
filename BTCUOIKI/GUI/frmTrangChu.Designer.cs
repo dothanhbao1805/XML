@@ -1,6 +1,6 @@
-﻿namespace BTCUOIKI
+﻿namespace BTCUOIKI.GUI
 {
-    partial class Form1
+    partial class frmTrangChu
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // frmTrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(885, 494);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(992, 542);
+            this.Name = "frmTrangChu";
+            this.Text = "frmTrangChu";
             this.ResumeLayout(false);
 
         }
@@ -44,4 +44,3 @@
         #endregion
     }
 }
-
