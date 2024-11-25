@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using BTCUOIKI.GUI;
+using System;
 using System.Windows.Forms;
+using BTCUOIKI.Class;
+using BTCUOIKI.GUI.DienThoai;
 
 namespace BTCUOIKI
 {
-    internal static class Program
+    static class Program
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace BTCUOIKI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmNhanVien());
+            Application.Run(new Main());
         }
     }
 }

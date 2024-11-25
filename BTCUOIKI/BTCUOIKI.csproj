@@ -46,17 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\DanhMuc.cs" />
+    <Compile Include="Class\DienThoaiModel.cs" />
+    <Compile Include="Class\FileXML.cs" />
+    <Compile Include="GUI\DienThoai\DanhMucDienThoai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DienThoai\DanhMucDienThoai.Designer.cs">
+      <DependentUpon>DanhMucDienThoai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DienThoai\DienThoai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DienThoai\DienThoai.Designer.cs">
+      <DependentUpon>DienThoai.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\frmDanhMucDienThoai.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\frmDanhMucDienThoai.Designer.cs">
-      <DependentUpon>frmDanhMucDienThoai.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\frmHoaDon.cs">
       <SubType>Form</SubType>
@@ -84,11 +93,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\DienThoai\DanhMucDienThoai.resx">
+      <DependentUpon>DanhMucDienThoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DienThoai\DienThoai.resx">
+      <DependentUpon>DienThoai.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\frmDanhMucDienThoai.resx">
-      <DependentUpon>frmDanhMucDienThoai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmHoaDon.resx">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
@@ -134,5 +146,6 @@
   <ItemGroup>
     <None Include="Resources\user %281%29.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
