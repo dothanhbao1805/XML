@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\FileXml.cs" />
+    <Compile Include="Class\HeThong.cs" />
+    <Compile Include="Class\KhachHang.cs" />
+    <Compile Include="Class\NhanVien.cs" />
     <Compile Include="GUI\frmHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
