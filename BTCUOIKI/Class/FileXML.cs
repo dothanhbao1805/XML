@@ -15,7 +15,7 @@ namespace BTCUOIKI.Class
 {
     class FileXML
     {
-        string Conn = @"Data Source=LAPTOP-H2Q9SAOP\SQLEXPRESS; Initial Catalog = QuanLyCuaHangDienThoai; Integrated Security=true";
+        string Conn = @"Data Source=LAPTOP-DIFNPUPB\XUANHOANG; Initial Catalog = QuanLyCuaHangDienThoai; Integrated Security=true";
         //public DataTable HienThi(string duongDan)
         //{
         //    DataTable dt = new DataTable();
