@@ -122,13 +122,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bgNhanVien.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\bgNhanVien1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\user %281%29.png" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
