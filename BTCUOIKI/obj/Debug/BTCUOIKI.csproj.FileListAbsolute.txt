@@ -16,9 +16,6 @@ E:\XML_CuoiKi\BTCUOIKI\bin\Debug\BTCUOIKI.exe
 E:\XML_CuoiKi\BTCUOIKI\bin\Debug\BTCUOIKI.pdb
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.csproj.AssemblyReference.cache
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.frmDangNhap.resources
-E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.frmHoaDon.resources
-E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.frmKhachhang.resources
-E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.frmNhanVien.resources
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.Main.resources
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.Properties.Resources.resources
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.csproj.GenerateResource.cache
@@ -27,3 +24,4 @@ E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.exe
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.pdb
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.DienThoai.DanhMucDienThoai.resources
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.DienThoai.DienThoai.resources
+E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.KhachHang.resources

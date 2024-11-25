@@ -51,7 +51,7 @@
             this.panelChildForm_AD.Location = new System.Drawing.Point(259, 0);
             this.panelChildForm_AD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelChildForm_AD.Name = "panelChildForm_AD";
-            this.panelChildForm_AD.Size = new System.Drawing.Size(1092, 698);
+            this.panelChildForm_AD.Size = new System.Drawing.Size(1665, 761);
             this.panelChildForm_AD.TabIndex = 9;
             this.panelChildForm_AD.Paint += new System.Windows.Forms.PaintEventHandler(this.panelChildForm_AD_Paint);
             // 
@@ -69,7 +69,7 @@
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(259, 698);
+            this.panelMenu.Size = new System.Drawing.Size(259, 761);
             this.panelMenu.TabIndex = 8;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
@@ -117,6 +117,7 @@
             this.btn_khachhang_AD.TabIndex = 8;
             this.btn_khachhang_AD.Text = "Khách hàng";
             this.btn_khachhang_AD.UseVisualStyleBackColor = true;
+            this.btn_khachhang_AD.Click += new System.EventHandler(this.btn_khachhang_AD_Click);
             // 
             // btn_donhang_AD
             // 
@@ -140,7 +141,7 @@
             this.btn_thoat_AD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_thoat_AD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_thoat_AD.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_thoat_AD.Location = new System.Drawing.Point(0, 623);
+            this.btn_thoat_AD.Location = new System.Drawing.Point(0, 686);
             this.btn_thoat_AD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_thoat_AD.Name = "btn_thoat_AD";
             this.btn_thoat_AD.Size = new System.Drawing.Size(259, 75);
@@ -215,7 +216,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1351, 698);
+            this.ClientSize = new System.Drawing.Size(1924, 761);
             this.Controls.Add(this.panelChildForm_AD);
             this.Controls.Add(this.panelMenu);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);

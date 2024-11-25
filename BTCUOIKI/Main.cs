@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+using BTCUOIKI.GUI;
 using BTCUOIKI.GUI.DienThoai;
 
 namespace BTCUOIKI
@@ -107,6 +108,13 @@ namespace BTCUOIKI
         private void Main_Load(object sender, EventArgs e)
         {
             btn_hanghoa_AD.PerformClick();
+        }
+
+        private void btn_khachhang_AD_Click(object sender, EventArgs e)
+        {
+            // Mở form DanhMucDienThoai
+            ActivateButton(sender); // Chuyển màu button khi nhấn
+            openChildForm(new KhachHang());
         }
     }
 }
