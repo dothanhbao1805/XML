@@ -49,6 +49,7 @@
     <Compile Include="Class\DanhMuc.cs" />
     <Compile Include="Class\DienThoaiModel.cs" />
     <Compile Include="Class\FileXML.cs" />
+    <Compile Include="Class\KhachHangModel.cs" />
     <Compile Include="GUI\DienThoai\DanhMucDienThoai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,23 +68,11 @@
     <Compile Include="GUI\frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\frmHoaDon.cs">
+    <Compile Include="GUI\KhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\frmHoaDon.Designer.cs">
-      <DependentUpon>frmHoaDon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\frmKhachhang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\frmKhachhang.Designer.cs">
-      <DependentUpon>frmKhachhang.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\frmNhanVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\frmNhanVien.Designer.cs">
-      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    <Compile Include="GUI\KhachHang.Designer.cs">
+      <DependentUpon>KhachHang.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -102,14 +91,8 @@
     <EmbeddedResource Include="GUI\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\frmHoaDon.resx">
-      <DependentUpon>frmHoaDon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\frmKhachhang.resx">
-      <DependentUpon>frmKhachhang.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\frmNhanVien.resx">
-      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\KhachHang.resx">
+      <DependentUpon>KhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>

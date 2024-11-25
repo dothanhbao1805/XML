@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NewDataSet xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="NewDataSet">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="KhachHang" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="KhachHang">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaKH" type="xs:string" minOccurs="0" />
+                <xs:element name="TenKH" type="xs:string" minOccurs="0" />
+                <xs:element name="SoDienThoai" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaChi" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <KhachHang>
+    <MaKH>KH01</MaKH>
+    <TenKH>Nguyễn Văn Khôi</TenKH>
+    <SoDienThoai>0902345678</SoDienThoai>
+    <Email>nvk@gmail.com</Email>
+    <DiaChi>Hà Nội</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH02</MaKH>
+    <TenKH>Trần Thị Lệ</TenKH>
+    <SoDienThoai>0913456789</SoDienThoai>
+    <Email>ttl@gmail.com</Email>
+    <DiaChi>TP HCM</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH03</MaKH>
+    <TenKH>Lê Văn Minh</TenKH>
+    <SoDienThoai>0924567890</SoDienThoai>
+    <Email>lvm@gmail.com</Email>
+    <DiaChi>Đà Nẵng</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH04</MaKH>
+    <TenKH>Phạm Thị Ngọc</TenKH>
+    <SoDienThoai>0935678901</SoDienThoai>
+    <Email>ptn@gmail.com</Email>
+    <DiaChi>Cần Thơ</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH05</MaKH>
+    <TenKH>Ngô Văn Quý</TenKH>
+    <SoDienThoai>0946789012</SoDienThoai>
+    <Email>nvo@gmail.com</Email>
+    <DiaChi>Hải Phòng</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH06</MaKH>
+    <TenKH>Nguyễn Thị Phúc</TenKH>
+    <SoDienThoai>0957890123</SoDienThoai>
+    <Email>ntp@gmail.com</Email>
+    <DiaChi>Huế</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH07</MaKH>
+    <TenKH>Trần Văn Quân</TenKH>
+    <SoDienThoai>0968901234</SoDienThoai>
+    <Email>tvq@gmail.com</Email>
+    <DiaChi>Quảng Ninh</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH08</MaKH>
+    <TenKH>Lê Thị Rạng</TenKH>
+    <SoDienThoai>0979012345</SoDienThoai>
+    <Email>ltr@gmail.com</Email>
+    <DiaChi>Nha Trang</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH09</MaKH>
+    <TenKH>Phạm Văn Sơn</TenKH>
+    <SoDienThoai>0980123456</SoDienThoai>
+    <Email>pvs@gmail.com</Email>
+    <DiaChi>Bắc Ninh</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH10</MaKH>
+    <TenKH>Ngô Thị Thanh Mai</TenKH>
+    <SoDienThoai>0991234567</SoDienThoai>
+    <Email>ntt@gmail.com</Email>
+    <DiaChi>Vũng Tàu</DiaChi>
+  </KhachHang>
+</NewDataSet>
