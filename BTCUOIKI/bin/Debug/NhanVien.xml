@@ -1,0 +1,70 @@
+<NewDataSet>
+  <xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="NewDataSet">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="NhanVien" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="NhanVien">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaNV" type="xs:string" minOccurs="0" />
+                <xs:element name="TenNV" type="xs:string" minOccurs="0" />
+                <xs:element name="SoDienThoai" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaChi" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <NhanVien>
+    <MaNV>NV01</MaNV>
+    <TenNV>Nguyễn Xuân Hoàng</TenNV>
+    <SoDienThoai>012346679</SoDienThoai>
+    <Email>nxh1505@gmail.com</Email>
+    <DiaChi>Đà Nẵng</DiaChi>
+  </NhanVien>
+  <NhanVien>
+    <MaNV>NV03</MaNV>
+    <TenNV>Lê Văn Chiến</TenNV>
+    <SoDienThoai>0923456789</SoDienThoai>
+    <Email>lvc@gmail.com</Email>
+    <DiaChi>Đà Nẵng</DiaChi>
+  </NhanVien>
+  <NhanVien>
+    <MaNV>NV04</MaNV>
+    <TenNV>Phạm Thị Diệu</TenNV>
+    <SoDienThoai>0934567890</SoDienThoai>
+    <Email>ptd@gmail.com</Email>
+    <DiaChi>Cần Thơ</DiaChi>
+  </NhanVien>
+  <NhanVien>
+    <MaNV>NV05</MaNV>
+    <TenNV>Ngô Văn Đức</TenNV>
+    <SoDienThoai>0945678901</SoDienThoai>
+    <Email>nve@gmail.com</Email>
+    <DiaChi>Hải Phòng</DiaChi>
+  </NhanVien>
+  <NhanVien>
+    <MaNV>NV06</MaNV>
+    <TenNV>Nguyễn Thị Phương</TenNV>
+    <SoDienThoai>0956789012</SoDienThoai>
+    <Email>ntf@gmail.com</Email>
+    <DiaChi>Huế</DiaChi>
+  </NhanVien>
+  <NhanVien>
+    <MaNV>NV07</MaNV>
+    <TenNV>Trần Văn Giang</TenNV>
+    <SoDienThoai>0967890123</SoDienThoai>
+    <Email>tvg@gmail.com</Email>
+    <DiaChi>Quảng Ninh</DiaChi>
+  </NhanVien>
+  <NhanVien>
+    <MaNV>NV08</MaNV>
+    <TenNV>Lê Thị Hạnh</TenNV>
+    <SoDienThoai>0978901234</SoDienThoai>
+    <Email>lth@gmail.com</Email>
+    <DiaChi>Nha Trang</DiaChi>
+  </NhanVien>
+</NewDataSet>

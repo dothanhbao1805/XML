@@ -9,7 +9,7 @@ using System.Threading;
 using System.Windows.Forms;
 using BTCUOIKI.GUI;
 using BTCUOIKI.GUI.DienThoai;
-
+using BTCUOIKI.GUI.ThongKe;
 namespace BTCUOIKI
 {
     public partial class Main : Form
@@ -115,6 +115,19 @@ namespace BTCUOIKI
             // Mở form DanhMucDienThoai
             ActivateButton(sender); // Chuyển màu button khi nhấn
             openChildForm(new KhachHang());
+        }
+
+        private void btn_nhanvien_AD_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender); // Chuyển màu button khi nhấn
+            openChildForm(new frmNhanVien());
+
+        }
+
+        private void btn_thongke_AD_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender); // Chuyển màu button khi nhấn
+            openChildForm(new frmThongKe());
         }
     }
 }

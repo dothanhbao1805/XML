@@ -25,3 +25,5 @@ E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.pdb
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.DienThoai.DanhMucDienThoai.resources
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.DienThoai.DienThoai.resources
 E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.KhachHang.resources
+E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.frmNhanVien.resources
+E:\XML_CuoiKi\BTCUOIKI\obj\Debug\BTCUOIKI.GUI.ThongKe.frmThongKe.resources
