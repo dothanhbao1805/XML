@@ -87,6 +87,7 @@
             this.btn_thongke_AD.TabIndex = 10;
             this.btn_thongke_AD.Text = "Thống kê";
             this.btn_thongke_AD.UseVisualStyleBackColor = true;
+            this.btn_thongke_AD.Click += new System.EventHandler(this.btn_thongke_AD_Click);
             // 
             // btn_nhanvien_AD
             // 
@@ -102,6 +103,7 @@
             this.btn_nhanvien_AD.TabIndex = 9;
             this.btn_nhanvien_AD.Text = "Nhân viên";
             this.btn_nhanvien_AD.UseVisualStyleBackColor = true;
+            this.btn_nhanvien_AD.Click += new System.EventHandler(this.btn_nhanvien_AD_Click);
             // 
             // btn_khachhang_AD
             // 
