@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 using BTCUOIKI.GUI.DienThoai;
+using BTCUOIKI.GUI;
+using BTCUOIKI.GUI.ThongKe;
 
 namespace BTCUOIKI
 {
@@ -101,12 +103,24 @@ namespace BTCUOIKI
 
         private void panelChildForm_AD_Paint(object sender, PaintEventArgs e)
         {
-
+            
         }
 
         private void Main_Load(object sender, EventArgs e)
         {
             btn_hanghoa_AD.PerformClick();
+        }
+
+        private void btn_nhanvien_AD_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender); // Chuyển màu button khi nhấn
+            openChildForm(new frmNhanVien()); // Mở form DanhMucDienThoai
+        }
+
+        private void btn_thongke_AD_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender); // Chuyển màu button khi nhấn
+            openChildForm(new frmThongKe()); // Mở form DanhMucDienThoai
         }
     }
 }
