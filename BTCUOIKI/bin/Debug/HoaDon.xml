@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="HoaDon" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="HoaDon">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaHD" type="xs:string" minOccurs="0" />
+                <xs:element name="MaKH" type="xs:string" minOccurs="0" />
+                <xs:element name="MaNV" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayLap" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TongTien" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <HoaDon>
+    <MaHD>HD02</MaHD>
+    <MaKH>KH02</MaKH>
+    <MaNV>NV02</MaNV>
+    <NgayLap>2024-11-02T00:00:00+07:00</NgayLap>
+    <TongTien>30000000.00</TongTien>
+  </HoaDon>
+  <HoaDon>
+    <MaHD>HD03</MaHD>
+    <MaKH>KH03</MaKH>
+    <MaNV>NV03</MaNV>
+    <NgayLap>2024-11-03T00:00:00+07:00</NgayLap>
+    <TongTien>45000000.00</TongTien>
+  </HoaDon>
+  <HoaDon>
+    <MaHD>HD04</MaHD>
+    <MaKH>KH04</MaKH>
+    <MaNV>NV04</MaNV>
+    <NgayLap>2024-11-04T00:00:00+07:00</NgayLap>
+    <TongTien>12000000.00</TongTien>
+  </HoaDon>
+  <HoaDon>
+    <MaHD>HD05</MaHD>
+    <MaKH>KH05</MaKH>
+    <MaNV>NV05</MaNV>
+    <NgayLap>2024-11-05T00:00:00+07:00</NgayLap>
+    <TongTien>25000000.00</TongTien>
+  </HoaDon>
+  <HoaDon>
+    <MaHD>HD06</MaHD>
+    <MaKH>KH06</MaKH>
+    <MaNV>NV06</MaNV>
+    <NgayLap>2024-11-06T00:00:00+07:00</NgayLap>
+    <TongTien>18000000.00</TongTien>
+  </HoaDon>
+  <HoaDon>
+    <MaHD>HD07</MaHD>
+    <MaKH>KH07</MaKH>
+    <MaNV>NV07</MaNV>
+    <NgayLap>2024-11-07T00:00:00+07:00</NgayLap>
+    <TongTien>16000000.00</TongTien>
+  </HoaDon>
+  <HoaDon>
+    <MaHD>HD08</MaHD>
+    <MaKH>KH08</MaKH>
+    <MaNV>NV08</MaNV>
+    <NgayLap>2024-11-08T00:00:00+07:00</NgayLap>
+    <TongTien>27000000.00</TongTien>
+  </HoaDon>
+  <HoaDon>
+    <MaHD>HD09</MaHD>
+    <MaKH>KH09</MaKH>
+    <MaNV>NV09</MaNV>
+    <NgayLap>2024-11-09T00:00:00+07:00</NgayLap>
+    <TongTien>32000000.00</TongTien>
+  </HoaDon>
+  <HoaDon>
+    <MaHD>HD10</MaHD>
+    <MaKH>KH10</MaKH>
+    <MaNV>NV10</MaNV>
+    <NgayLap>2024-11-10T00:00:00+07:00</NgayLap>
+    <TongTien>20000000.00</TongTien>
+  </HoaDon>
+</NewDataSet>

@@ -113,8 +113,9 @@ namespace BTCUOIKI
         private void btn_khachhang_AD_Click(object sender, EventArgs e)
         {
             // Mở form DanhMucDienThoai
-            ActivateButton(sender); // Chuyển màu button khi nhấn
-            openChildForm(new KhachHang());
+            ActivateButton(sender);
+            openChildForm(new txtthanhtien());
+
         }
 
         private void btn_nhanvien_AD_Click(object sender, EventArgs e)
@@ -125,6 +126,18 @@ namespace BTCUOIKI
         }
 
         private void btn_thongke_AD_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender); // Chuyển màu button khi nhấn
+            openChildForm(new KhachHang());
+        }
+
+        private void btn_donhang_AD_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender); // Chuyển màu button khi nhấn
+            openChildForm(new frmHoaDon());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             ActivateButton(sender); // Chuyển màu button khi nhấn
             openChildForm(new frmThongKe());

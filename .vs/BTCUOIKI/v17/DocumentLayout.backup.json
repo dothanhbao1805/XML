@@ -1,46 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\XML_CuoiKi\\",
+  "WorkspaceRootPath": "C:\\Code__\\XML\\CKXML\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\xml_cuoiki\\btcuoiki\\gui\\thongke\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\thongke\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|c:\\code__\\xml\\ckxml\\btcuoiki\\class\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\class\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\xml_cuoiki\\btcuoiki\\gui\\thongke\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\thongke\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|c:\\code__\\xml\\ckxml\\btcuoiki\\gui\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\xml_cuoiki\\btcuoiki\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|c:\\code__\\xml\\ckxml\\btcuoiki\\gui\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\xml_cuoiki\\btcuoiki\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|c:\\code__\\xml\\ckxml\\btcuoiki\\gui\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\xml_cuoiki\\btcuoiki\\class\\filexml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\class\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\class\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\class\\filexml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\class\\filexml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\xml_cuoiki\\btcuoiki\\gui\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\xml_cuoiki\\btcuoiki\\gui\\frmnhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmnhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\xml_cuoiki\\btcuoiki\\gui\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\thongke\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\thongke\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\dienthoai\\dienthoai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\dienthoai\\dienthoai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\dienthoai\\danhmucdienthoai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\dienthoai\\danhmucdienthoai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\thongke\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\thongke\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\xml_cuoiki\\btcuoiki\\class\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Code__\\XML\\CKXML\\BTCUOIKI\\bin\\Debug\\HoaDon.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BTCUOIKI\\bin\\Debug\\HoaDon.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\class\\dienthoaimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\class\\dienthoaimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\class\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\class\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\class\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\class\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|e:\\xml_cuoiki\\btcuoiki\\gui\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\class\\khachhangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\class\\khachhangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|C:\\Code__\\XML\\CKXML\\btcuoiki\\gui\\frmnhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E527076-2E72-4583-BDFE-3140078C4A66}|BTCUOIKI\\BTCUOIKI.csproj|solutionrelative:btcuoiki\\gui\\frmnhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +110,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -59,23 +135,116 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ChiTietHoaDon.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\ChiTietHoaDon.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\ChiTietHoaDon.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\ChiTietHoaDon.cs",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\ChiTietHoaDon.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAIwNIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:44:41.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChiTietHoaDon.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\ChiTietHoaDon.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\Class\\ChiTietHoaDon.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\ChiTietHoaDon.cs",
+              "RelativeToolTip": "BTCUOIKI\\Class\\ChiTietHoaDon.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwC0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:31:34.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTietHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\ChiTietHoaDon.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\ChiTietHoaDon.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\ChiTietHoaDon.cs [Design]",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\ChiTietHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:23:13.679Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmHoaDon.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmHoaDon.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\frmHoaDon.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmHoaDon.cs",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\frmHoaDon.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:55:08.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\HoaDon.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\Class\\HoaDon.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\HoaDon.cs",
+              "RelativeToolTip": "BTCUOIKI\\Class\\HoaDon.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:56:04.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmHoaDon.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\frmHoaDon.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmHoaDon.cs [Design]",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\frmHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:53:38.857Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileXML.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\FileXML.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\Class\\FileXML.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\FileXML.cs",
+              "RelativeToolTip": "BTCUOIKI\\Class\\FileXML.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAIA0wMAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:46:22.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "frmThongKe.cs",
-              "DocumentMoniker": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs",
               "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs",
-              "ToolTip": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs",
               "RelativeToolTip": "BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAswMQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAMQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T02:40:42.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "frmThongKe.cs [Design]",
-              "DocumentMoniker": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs",
               "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs",
-              "ToolTip": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs [Design]",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs [Design]",
               "RelativeToolTip": "BTCUOIKI\\GUI\\ThongKe\\frmThongKe.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T02:34:10.758Z",
@@ -84,23 +253,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "frmNhanVien.cs",
-              "DocumentMoniker": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\frmNhanVien.cs",
-              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\frmNhanVien.cs",
-              "ToolTip": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\frmNhanVien.cs",
-              "RelativeToolTip": "BTCUOIKI\\GUI\\frmNhanVien.cs",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAAwMUAAAARAAAAAAAAAA==",
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Main.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\Main.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Main.cs",
+              "RelativeToolTip": "BTCUOIKI\\Main.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAA5wHQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T02:25:27.303Z",
+              "WhenOpened": "2024-11-26T02:29:22.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Main.cs [Design]",
-              "DocumentMoniker": "E:\\XML_CuoiKi\\BTCUOIKI\\Main.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Main.cs",
               "RelativeDocumentMoniker": "BTCUOIKI\\Main.cs",
-              "ToolTip": "E:\\XML_CuoiKi\\BTCUOIKI\\Main.cs [Design]",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Main.cs [Design]",
               "RelativeToolTip": "BTCUOIKI\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T02:29:02.494Z",
@@ -108,50 +277,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main.cs",
-              "DocumentMoniker": "E:\\XML_CuoiKi\\BTCUOIKI\\Main.cs",
-              "RelativeDocumentMoniker": "BTCUOIKI\\Main.cs",
-              "ToolTip": "E:\\XML_CuoiKi\\BTCUOIKI\\Main.cs",
-              "RelativeToolTip": "BTCUOIKI\\Main.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAqwIEAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "DanhMucDienThoai.cs [Design]",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\DienThoai\\DanhMucDienThoai.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\DienThoai\\DanhMucDienThoai.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\DienThoai\\DanhMucDienThoai.cs [Design]",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\DienThoai\\DanhMucDienThoai.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T02:29:22.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:35:07.279Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FileXML.cs",
-              "DocumentMoniker": "E:\\XML_CuoiKi\\BTCUOIKI\\Class\\FileXML.cs",
-              "RelativeDocumentMoniker": "BTCUOIKI\\Class\\FileXML.cs",
-              "ToolTip": "E:\\XML_CuoiKi\\BTCUOIKI\\Class\\FileXML.cs",
-              "RelativeToolTip": "BTCUOIKI\\Class\\FileXML.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "DienThoai.cs [Design]",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\DienThoai\\DienThoai.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\DienThoai\\DienThoai.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\DienThoai\\DienThoai.cs [Design]",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\DienThoai\\DienThoai.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T02:46:22.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:34:54.376Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NhanVien.cs",
-              "DocumentMoniker": "E:\\XML_CuoiKi\\BTCUOIKI\\Class\\NhanVien.cs",
-              "RelativeDocumentMoniker": "BTCUOIKI\\Class\\NhanVien.cs",
-              "ToolTip": "E:\\XML_CuoiKi\\BTCUOIKI\\Class\\NhanVien.cs",
-              "RelativeToolTip": "BTCUOIKI\\Class\\NhanVien.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T02:27:02.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "KhachHang.cs [Design]",
-              "DocumentMoniker": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\KhachHang.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\KhachHang.cs",
               "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\KhachHang.cs",
-              "ToolTip": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\KhachHang.cs [Design]",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\KhachHang.cs [Design]",
               "RelativeToolTip": "BTCUOIKI\\GUI\\KhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T02:20:08.325Z",
@@ -159,11 +313,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmNhanVien.cs [Design]",
-              "DocumentMoniker": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\frmNhanVien.cs",
+              "DocumentIndex": 17,
+              "Title": "frmDangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\frmDangNhap.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmDangNhap.cs [Design]",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\frmDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:34:57.737Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmNhanVien.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmNhanVien.cs",
               "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\frmNhanVien.cs",
-              "ToolTip": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\frmNhanVien.cs [Design]",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmNhanVien.cs",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\frmNhanVien.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAcwKkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:25:27.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmNhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\frmNhanVien.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmNhanVien.cs [Design]",
               "RelativeToolTip": "BTCUOIKI\\GUI\\frmNhanVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T02:19:55.941Z",
@@ -171,11 +350,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
+              "Title": "HoaDon.xml",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\bin\\Debug\\HoaDon.xml",
+              "RelativeDocumentMoniker": "BTCUOIKI\\bin\\Debug\\HoaDon.xml",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\bin\\Debug\\HoaDon.xml",
+              "RelativeToolTip": "BTCUOIKI\\bin\\Debug\\HoaDon.xml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-11-27T14:50:21.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DanhMuc.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\DanhMuc.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\Class\\DanhMuc.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\DanhMuc.cs",
+              "RelativeToolTip": "BTCUOIKI\\Class\\DanhMuc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:44:35.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DienThoaiModel.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\DienThoaiModel.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\Class\\DienThoaiModel.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\DienThoaiModel.cs",
+              "RelativeToolTip": "BTCUOIKI\\Class\\DienThoaiModel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:45:43.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmHoaDon.Designer.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmHoaDon.Designer.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\frmHoaDon.Designer.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmHoaDon.Designer.cs",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\frmHoaDon.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:15:48.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\NhanVien.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\Class\\NhanVien.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\NhanVien.cs",
+              "RelativeToolTip": "BTCUOIKI\\Class\\NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:27:02.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KhachHangModel.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\KhachHangModel.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\Class\\KhachHangModel.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\Class\\KhachHangModel.cs",
+              "RelativeToolTip": "BTCUOIKI\\Class\\KhachHangModel.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:47:21.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\KhachHang.cs",
+              "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\KhachHang.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\KhachHang.cs",
+              "RelativeToolTip": "BTCUOIKI\\GUI\\KhachHang.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwFIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:35:45.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "frmNhanVien.Designer.cs",
-              "DocumentMoniker": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\frmNhanVien.Designer.cs",
+              "DocumentMoniker": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmNhanVien.Designer.cs",
               "RelativeDocumentMoniker": "BTCUOIKI\\GUI\\frmNhanVien.Designer.cs",
-              "ToolTip": "E:\\XML_CuoiKi\\BTCUOIKI\\GUI\\frmNhanVien.Designer.cs",
+              "ToolTip": "C:\\Code__\\XML\\CKXML\\BTCUOIKI\\GUI\\frmNhanVien.Designer.cs",
               "RelativeToolTip": "BTCUOIKI\\GUI\\frmNhanVien.Designer.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

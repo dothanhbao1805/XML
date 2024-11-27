@@ -20,13 +20,6 @@
     </xs:element>
   </xs:schema>
   <KhachHang>
-    <MaKH>KH01</MaKH>
-    <TenKH>Nguyễn Văn Khôi</TenKH>
-    <SoDienThoai>0902345678</SoDienThoai>
-    <Email>nvk@gmail.com</Email>
-    <DiaChi>Hà Nội</DiaChi>
-  </KhachHang>
-  <KhachHang>
     <MaKH>KH02</MaKH>
     <TenKH>Trần Thị Lệ</TenKH>
     <SoDienThoai>0913456789</SoDienThoai>

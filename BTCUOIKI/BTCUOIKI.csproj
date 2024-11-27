@@ -47,11 +47,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\ChiTietHoaDon.cs" />
     <Compile Include="Class\DanhMuc.cs" />
     <Compile Include="Class\DienThoaiModel.cs" />
+    <Compile Include="Class\HoaDon.cs" />
     <Compile Include="Class\FileXML.cs" />
     <Compile Include="Class\KhachHangModel.cs" />
     <Compile Include="Class\NhanVien.cs" />
+    <Compile Include="GUI\ChiTietHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ChiTietHoaDon.Designer.cs">
+      <DependentUpon>ChiTietHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\DienThoai\DanhMucDienThoai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +77,12 @@
     </Compile>
     <Compile Include="GUI\frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmHoaDon.Designer.cs">
+      <DependentUpon>frmHoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\frmNhanVien.cs">
       <SubType>Form</SubType>
@@ -96,6 +110,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\ChiTietHoaDon.resx">
+      <DependentUpon>ChiTietHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\DienThoai\DanhMucDienThoai.resx">
       <DependentUpon>DanhMucDienThoai.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmHoaDon.resx">
+      <DependentUpon>frmHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmNhanVien.resx">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
