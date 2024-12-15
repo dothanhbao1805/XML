@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -115,7 +116,7 @@ namespace BTCUOIKI
 
         private void Main_Load(object sender, EventArgs e)
         {
-            btn_hanghoa_AD.PerformClick();
+            CheckXmlFilesAndDisableButtons();
         }
 
         private void btn_khachhang_AD_Click(object sender, EventArgs e)
@@ -155,5 +156,66 @@ namespace BTCUOIKI
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            ActivateButton(sender); // Chuyển màu button khi nhấn
+            openChildForm(new frmChuyenDoi(this));
+        }
+        private void CheckXmlFilesAndDisableButtons()
+        {
+            // Đường dẫn thư mục cần kiểm tra
+            string directoryPath = @"D:\XML\CUOIKI_final\BTCUOIKI\bin\Debug\";
+
+            if (Directory.Exists(directoryPath))
+            {
+                // Lấy danh sách các file XML trong thư mục
+                string[] xmlFiles = Directory.GetFiles(directoryPath, "*.xml");
+
+                // Nếu không có file XML, disable các button trừ btn_ChuyenDoi
+                if (xmlFiles.Length == 0)
+                {
+                    foreach (Control control in panelMenu.Controls)
+                    {
+                        if (control is Button button && button.Name != "btn_ChuyenDoi")
+                        {
+                            button.Enabled = false; // Disable button
+                        }
+                    }
+
+                    // Đảm bảo btn_ChuyenDoi được kích hoạt
+                    btn_ChuyenDoi.Enabled = true;
+                }
+                else
+                {
+                    // Có file XML, enable tất cả các button
+                    foreach (Control control in panelMenu.Controls)
+                    {
+                        if (control is Button button)
+                        {
+                            button.Enabled = true; // Enable button
+                        }
+                    }
+
+                    // Mặc định kích hoạt btn_hanghoa_AD
+                    btn_hanghoa_AD.PerformClick();
+                }
+            }
+            else
+            {
+                MessageBox.Show($"Thư mục '{directoryPath}' không tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        public void EnableAllButtons()
+        {
+            foreach (Control control in panelMenu.Controls)
+            {
+                if (control is Button button)
+                {
+                    button.Enabled = true; // Enable button
+                }
+            }
+        }
+
     }
 }

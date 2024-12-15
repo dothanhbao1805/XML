@@ -48,17 +48,19 @@ namespace BTCUOIKI.GUI.ThongKe
         private void LoadChartDoanhThu(string connectionString)
         {
             string query = @"
-                SELECT 
-                    MONTH(NgayLap) AS Thang, 
-                    SUM(CTHD.SoLuong * CTHD.DonGia) AS DoanhThu
-                FROM 
-                    HoaDon HD
-                INNER JOIN 
-                    ChiTietHoaDon CTHD ON HD.MaHD = CTHD.MaHD
-                GROUP BY 
-                    MONTH(NgayLap)
-                ORDER BY 
-                    Thang;
+            SELECT 
+             MONTH(HD.NgayLap) AS Thang, 
+             SUM(CTHD.SoLuong * DT.GiaBan) AS DoanhThu
+             FROM 
+                 HoaDon HD
+             INNER JOIN 
+                 ChiTietHoaDon CTHD ON HD.MaHD = CTHD.MaHD
+             INNER JOIN 
+                 DienThoai DT ON CTHD.MaDT = DT.MaDT
+             GROUP BY 
+                 MONTH(HD.NgayLap)
+             ORDER BY 
+                 Thang;
             ";
             DataTable dataTable = new DataTable();
 
