@@ -33,6 +33,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lb_tenadmin_AD = new System.Windows.Forms.Label();
+            this.btn_ChuyenDoi = new System.Windows.Forms.Button();
             this.btn_ThongKe_AD = new System.Windows.Forms.Button();
             this.btn_KhachHang_AD = new System.Windows.Forms.Button();
             this.btn_nhanvien_AD = new System.Windows.Forms.Button();
@@ -59,6 +60,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.SteelBlue;
+            this.panelMenu.Controls.Add(this.btn_ChuyenDoi);
             this.panelMenu.Controls.Add(this.btn_ThongKe_AD);
             this.panelMenu.Controls.Add(this.btn_KhachHang_AD);
             this.panelMenu.Controls.Add(this.btn_nhanvien_AD);
@@ -109,6 +111,24 @@
             this.lb_tenadmin_AD.Size = new System.Drawing.Size(68, 25);
             this.lb_tenadmin_AD.TabIndex = 0;
             this.lb_tenadmin_AD.Text = "Admin";
+            // 
+            // btn_ChuyenDoi
+            // 
+            this.btn_ChuyenDoi.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_ChuyenDoi.FlatAppearance.BorderSize = 0;
+            this.btn_ChuyenDoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ChuyenDoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_ChuyenDoi.ForeColor = System.Drawing.Color.White;
+            this.btn_ChuyenDoi.Image = global::BTCUOIKI.Properties.Resources.shuffle;
+            this.btn_ChuyenDoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_ChuyenDoi.Location = new System.Drawing.Point(0, 536);
+            this.btn_ChuyenDoi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_ChuyenDoi.Name = "btn_ChuyenDoi";
+            this.btn_ChuyenDoi.Size = new System.Drawing.Size(250, 60);
+            this.btn_ChuyenDoi.TabIndex = 12;
+            this.btn_ChuyenDoi.Text = "Chuyển đổi dữ ";
+            this.btn_ChuyenDoi.UseVisualStyleBackColor = true;
+            this.btn_ChuyenDoi.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // btn_ThongKe_AD
             // 
@@ -280,5 +300,6 @@
         private System.Windows.Forms.Label lb_tenadmin_AD;
         private System.Windows.Forms.Button btn_ThongKe_AD;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btn_ChuyenDoi;
     }
 }

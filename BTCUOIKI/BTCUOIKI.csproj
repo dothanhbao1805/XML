@@ -50,6 +50,7 @@
     <Compile Include="Class\ChiTietHoaDon.cs" />
     <Compile Include="Class\DanhMuc.cs" />
     <Compile Include="Class\DienThoaiModel.cs" />
+    <Compile Include="Class\HeThong.cs" />
     <Compile Include="Class\HoaDon.cs" />
     <Compile Include="Class\FileXML.cs" />
     <Compile Include="Class\KhachHangModel.cs" />
@@ -71,6 +72,12 @@
     </Compile>
     <Compile Include="GUI\DienThoai\DienThoai.Designer.cs">
       <DependentUpon>DienThoai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmChuyenDoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmChuyenDoi.Designer.cs">
+      <DependentUpon>frmChuyenDoi.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\frmDangNhap.cs">
       <SubType>Form</SubType>
@@ -118,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\DienThoai\DienThoai.resx">
       <DependentUpon>DienThoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmChuyenDoi.resx">
+      <DependentUpon>frmChuyenDoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
@@ -239,6 +249,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuffle.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
