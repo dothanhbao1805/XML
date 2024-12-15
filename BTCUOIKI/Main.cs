@@ -97,7 +97,15 @@ namespace BTCUOIKI
 
         private void btn_thoat_AD_Click(object sender, EventArgs e)
         {
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
+            if (result == DialogResult.Yes)
+            {
+                // Đóng form hiện tại (form chính) và quay lại form đăng nhập
+                frmDangNhap loginForm = new frmDangNhap();
+                loginForm.Show(); // Hiển thị lại form đăng nhập
+                this.Close();     // Đóng form chính hiện tại
+            }
         }
 
         private void panelChildForm_AD_Paint(object sender, PaintEventArgs e)
@@ -141,6 +149,11 @@ namespace BTCUOIKI
         {
             ActivateButton(sender); // Chuyển màu button khi nhấn
             openChildForm(new frmThongKe());
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

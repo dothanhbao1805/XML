@@ -37,7 +37,7 @@ namespace BTCUOIKI.GUI.ThongKe
 
         private void frmThongKe_Load(object sender, EventArgs e)
         {
-            string connectionString = @"Server=LAPTOP-H2Q9SAOP\SQLEXPRESS;Database=QuanLyCuaHangDienThoai;Trusted_Connection=True;";
+            string connectionString = @"Server=LAPTOP-DIFNPUPB\XUANHOANG;Database=QuanLyCuaHangDienThoai;Trusted_Connection=True;";
 
             // Gọi các hàm hiển thị thống kê
             LoadChartDoanhThu(connectionString);
