@@ -18,7 +18,7 @@ namespace BTCUOIKI.GUI
     {
         HoaDon hd = new HoaDon();
         FileXML Fxml = new FileXML();
-        string MaHD, MaKH, MaNV, NgayLap, TongTien;
+        string MaHD, MaKH, MaNV, NgayLap;
         public frmHoaDon()
         {
             InitializeComponent();
@@ -34,8 +34,64 @@ namespace BTCUOIKI.GUI
         {
             try
             {
-                DataTable dt = Fxml.HienThi("HoaDon.xml");
-                dgvDonHang.DataSource = dt;
+                // Đọc dữ liệu từ các file XML
+                DataTable dtHoaDon = Fxml.HienThi("HoaDon.xml");
+                DataTable dtChiTietDonHang = Fxml.HienThi("ChiTietHoaDon.xml");
+                DataTable dtDienThoai = Fxml.HienThi("DienThoai.xml");
+
+                // Thêm cột Thành tiền vào ChiTietDonhang nếu chưa có
+                if (!dtChiTietDonHang.Columns.Contains("ThanhTien"))
+                {
+                    dtChiTietDonHang.Columns.Add("ThanhTien", typeof(decimal));
+                }
+
+                // Tính thành tiền trong ChiTietDonhang
+                foreach (DataRow chiTietRow in dtChiTietDonHang.Rows)
+                {
+                    string maSanPham = chiTietRow["MaDT"].ToString();
+                    int soLuong = int.TryParse(chiTietRow["SoLuong"].ToString(), out int sl) ? sl : 0;
+                    decimal donGia = 0;
+
+                    // Lấy đơn giá từ DienThoai.xml
+                    var dienThoaiRow = dtDienThoai.Select($"MaDT = '{maSanPham}'").FirstOrDefault();
+                    if (dienThoaiRow != null)
+                    {
+                        donGia = decimal.TryParse(dienThoaiRow["GiaBan"].ToString(), out decimal dg) ? dg : 0;
+                    }
+
+                    // Tính thành tiền = số lượng * đơn giá
+                    chiTietRow["ThanhTien"] = soLuong * donGia;
+                }
+
+                // Thêm cột Tổng tiền vào HoaDon nếu chưa có
+                if (!dtHoaDon.Columns.Contains("TongTien"))
+                {
+                    dtHoaDon.Columns.Add("TongTien", typeof(decimal));
+                }
+
+                // Tính tổng tiền cho từng hóa đơn
+                foreach (DataRow hoaDonRow in dtHoaDon.Rows)
+                {
+                    string maHoaDon = hoaDonRow["MaHD"].ToString();
+                    decimal tongTien = 0;
+
+                    // Lọc chi tiết đơn hàng theo mã hóa đơn
+                    var chiTietRows = dtChiTietDonHang.Select($"MaHD = '{maHoaDon}'");
+                    foreach (var chiTietRow in chiTietRows)
+                    {
+                        if (decimal.TryParse(chiTietRow["ThanhTien"].ToString(), out decimal thanhTien))
+                        {
+                            tongTien += thanhTien;
+                        }
+                    }
+
+                    // Gán tổng tiền vào cột mới
+                    hoaDonRow["TongTien"] = tongTien;
+                }
+
+                // Gán DataTable cho DataGridView
+                dgvDonHang.DataSource = dtHoaDon;
+
                 // Tăng kích thước font chữ cho nội dung các ô
                 dgvDonHang.DefaultCellStyle.Font = new Font("Arial", 14);
 
@@ -53,19 +109,18 @@ namespace BTCUOIKI.GUI
                 ShowMessage($"Đã xảy ra lỗi khi hiển thị dữ liệu: {ex.Message}", MessageBoxIcon.Error);
             }
         }
+
         public void LoadDuLieu()
         {
             MaHD = txtMaHD.Text.Trim();
             MaKH = cbbMaKH.Text.Trim();
             MaNV = cbbMaNV.Text.Trim();
             NgayLap = time.Text.Trim();
-            TongTien = txtTongTien.Text.Trim();
         }
 
         private void ClearInputs()
         {
             txtMaHD.Text = string.Empty;
-            txtTongTien.Text = string.Empty;
             cbbMaKH.SelectedIndex = 0;
             cbbMaNV.SelectedIndex = 0;
             txtMaHD.Focus();
@@ -130,16 +185,14 @@ namespace BTCUOIKI.GUI
                         dt.Columns.Add("Mã khách hàng");
                         dt.Columns.Add("Mã nhân viên");
                         dt.Columns.Add("Ngày lập");
-                        dt.Columns.Add("Tổng tiền");
 
                         foreach (DataRowView row in dv)
                         {
                             object[] list = {
-                        row["MaHD"],       
-                        row["MaKH"],      
-                        row["MaNV"],    
-                        row["NgayLap"], 
-                        row["TongTien"]      
+                        row["MaHD"],
+                        row["MaKH"],
+                        row["MaNV"],
+                        row["NgayLap"],
                     };
                             dt.Rows.Add(list);
                         }
@@ -186,23 +239,22 @@ namespace BTCUOIKI.GUI
 
         private void dgvNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-                try
+            try
+            {
+                int d = dgvDonHang.CurrentRow.Index;
+                txtMaHD.Text = dgvDonHang.Rows[d].Cells[0].Value.ToString();
+                string ngayLapStr = dgvDonHang.Rows[d].Cells["NgayLap"].Value?.ToString();
+                if (DateTime.TryParse(ngayLapStr, out DateTime ngayLap))
                 {
-                    int d = dgvDonHang.CurrentRow.Index;
-                    txtMaHD.Text = dgvDonHang.Rows[d].Cells[0].Value.ToString();
-                    string ngayLapStr = dgvDonHang.Rows[d].Cells["NgayLap"].Value?.ToString();
-                    if (DateTime.TryParse(ngayLapStr, out DateTime ngayLap))
-                    {
-                        time.Value = ngayLap;
-                    }
-                    cbbMaKH.SelectedItem = dgvDonHang.Rows[d].Cells[1].Value.ToString();
-                    cbbMaNV.SelectedItem = dgvDonHang.Rows[d].Cells[2].Value.ToString();
-                    txtTongTien.Text = dgvDonHang.Rows[d].Cells[4].Value.ToString();
+                    time.Value = ngayLap;
                 }
-                catch (Exception ex)
-                {
-                    ShowMessage($"Đã xảy ra lỗi khi chọn dữ liệu: {ex.Message}", MessageBoxIcon.Error);
-                }
+                cbbMaKH.SelectedItem = dgvDonHang.Rows[d].Cells[1].Value.ToString();
+                cbbMaNV.SelectedItem = dgvDonHang.Rows[d].Cells[2].Value.ToString();
+            }
+            catch (Exception ex)
+            {
+                ShowMessage($"Đã xảy ra lỗi khi chọn dữ liệu: {ex.Message}", MessageBoxIcon.Error);
+            }
         }
 
         private void txtTenNhanVien_TextChanged(object sender, EventArgs e)
@@ -246,13 +298,13 @@ namespace BTCUOIKI.GUI
             {
                 LoadDuLieu();
 
-                if (string.IsNullOrWhiteSpace(MaHD) )
+                if (string.IsNullOrWhiteSpace(MaHD))
                 {
                     ShowMessage("Mã hoá đơn không được để trống!", MessageBoxIcon.Warning);
                     return;
                 }
                 DateTime.TryParse(NgayLap, out DateTime ngayLap);
-                hd.suaHD(MaHD, MaKH, MaNV, ngayLap, TongTien);
+                hd.suaHD(MaHD, MaKH, MaNV, ngayLap);
                 ShowMessage("Cập nhật hoá đơn thành công!", MessageBoxIcon.Information);
                 HienThiHoaDon();
                 ClearInputs();
@@ -284,40 +336,42 @@ namespace BTCUOIKI.GUI
 
         private void btn_xoa_KH_Click(object sender, EventArgs e)
         {
-            try { 
-            LoadDuLieu();
-
-            if (string.IsNullOrWhiteSpace(txtMaHD.Text))
+            try
             {
-                ShowMessage("Vui lòng chọn hoá đơn cần xóa!", MessageBoxIcon.Warning);
-                return;
+                LoadDuLieu();
+
+                if (string.IsNullOrWhiteSpace(txtMaHD.Text))
+                {
+                    ShowMessage("Vui lòng chọn hoá đơn cần xóa!", MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Hiển thị hộp thoại xác nhận
+                DialogResult result = MessageBox.Show(
+                    $"Bạn có chắc chắn muốn xoá hoá đơn với mã {txtMaHD.Text} không?",
+                    "Xác nhận xóa",
+                    MessageBoxButtons.YesNo,
+    MessageBoxIcon.Question
+                );
+
+                if (result == DialogResult.Yes)
+                {
+                    // Thực hiện xóa
+                    hd.xoaHD(txtMaHD.Text);
+                    ShowMessage("Xóa hoá đơn thành công!", MessageBoxIcon.Information);
+
+                    // Cập nhật lại danh sách
+                    HienThiHoaDon();
+                }
             }
-
-            // Hiển thị hộp thoại xác nhận
-            DialogResult result = MessageBox.Show(
-                $"Bạn có chắc chắn muốn xoá hoá đơn với mã {txtMaHD.Text} không?",
-                "Xác nhận xóa",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question
-            );
-
-            if (result == DialogResult.Yes)
-            {
-                // Thực hiện xóa
-                hd.xoaHD(txtMaHD.Text);
-                ShowMessage("Xóa hoá đơn thành công!", MessageBoxIcon.Information);
-
-                // Cập nhật lại danh sách
-                HienThiHoaDon();
-            }
-        }
             catch (Exception ex)
             {
-                ShowMessage($"Đã xảy ra lỗi: {ex.Message}", MessageBoxIcon.Error);}
-    }
+                ShowMessage($"Đã xảy ra lỗi: {ex.Message}", MessageBoxIcon.Error);
+            }
+        }
 
 
-    
+
 
         private void btn_load_Click(object sender, EventArgs e)
         {
@@ -345,9 +399,9 @@ namespace BTCUOIKI.GUI
                 {
 
                     DateTime.TryParse(NgayLap, out DateTime ngayLap);
-                    
 
-                    hd.themHD(MaHD, MaKH, MaNV, ngayLap, TongTien);
+
+                    hd.themHD(MaHD, MaKH, MaNV, ngayLap);
                     ShowMessage("Thêm hoá đơn thành công!", MessageBoxIcon.Information);
                     HienThiHoaDon();
                     ClearInputs();

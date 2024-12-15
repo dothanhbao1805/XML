@@ -23,7 +23,7 @@ namespace BTCUOIKI.Class
         }
 
 
-        public void themHD(string MaHD, string MaKH, string MaNV, DateTime NgayLap, string TongTien)
+        public void themHD(string MaHD, string MaKH, string MaNV, DateTime NgayLap)
         {
             string ngayl = NgayLap.ToString("yyyy-MM-ddTHH:mm:ssK");
             string noiDung = "<HoaDon>" +
@@ -31,19 +31,17 @@ namespace BTCUOIKI.Class
                              "<MaKH>" + MaKH + "</MaKH>" +
                              "<MaNV>" + MaNV + "</MaNV>" +
                              "<NgayLap>" + ngayl + "</NgayLap>" +
-                             "<TongTien>" + TongTien + "</TongTien>" +
                              "</HoaDon>";
             Fxml.Them("HoaDon.xml", noiDung);
         }
 
-        public void suaHD(string MaHD, string MaKH, string MaNV, DateTime NgayLap, string TongTien)
+        public void suaHD(string MaHD, string MaKH, string MaNV, DateTime NgayLap)
         {
             string ngayl = NgayLap.ToString("yyyy-MM-ddTHH:mm:ssK");
             string noiDung = "<MaHD>" + MaHD + "</MaHD>" +
                              "<MaKH>" + MaKH + "</MaKH>" +
                              "<MaNV>" + MaNV + "</MaNV>" +
-                             "<NgayLap>" + ngayl + "</NgayLap>" +
-                             "<TongTien>" + TongTien + "</TongTien>";
+                             "<NgayLap>" + ngayl + "</NgayLap>";
             Fxml.Sua("HoaDon.xml", "HoaDon", "MaHD", MaKH, noiDung);
         }
 
